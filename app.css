@@ -8,9 +8,10 @@
 .container {
   height: 100vh;
   width: 100%;
-  background: url("https://images.unsplash.com/photo-1602940659805-770d1b3b9911?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDMyNzEwMQ&ixlib=rb-1.2.1&q=85");
+  background-image: url("https://images.unsplash.com/photo-1602940659805-770d1b3b9911?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDMyNzEwMQ&ixlib=rb-1.2.1&q=85");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat, repeat;
   background-clip: border-box;
   position: relative;
 }
